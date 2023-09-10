@@ -91,11 +91,7 @@ main .chakras{
 /* index main finaliza */
 
 /* index section inicia */
-section .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .nosotros{
     width: 100%;
     display: flex;
@@ -263,8 +259,8 @@ H2 {
     display: block;
 }
 /* testimonio section */
-
-/* section .container{
+/* 
+section .container{
 
     display: block;
     justify-content: space-evenly;
@@ -326,7 +322,7 @@ section p {
     text-align: center;
 }
 
-section .container{
+/* section .container{
 
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -334,7 +330,7 @@ section .container{
     margin-top: 30px;
    
     
-}
+} */
 
 
 
