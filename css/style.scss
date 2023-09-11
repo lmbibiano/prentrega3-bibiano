@@ -1,0 +1,573 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Caprasimo&family=Itim&family=Russo+One&family=Smokum&family=Ubuntu&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(225, 153, 75, 0.907);
+    font-family: "Caprasimo", cursive;
+}
+body {
+    background-image: url(../img/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.breadcrumbs .bread{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.navbar {
+    height: 100px;
+    border: solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 5px 10px rgba(36, 35, 35, 0.663);
+    background-color: rgba(18, 19, 18, 0.539);
+    
+}
+.nav-link{
+    color: blanchedalmond;
+    font-size: 25px;
+}
+.nav-link:hover{
+    color: rgba(225, 153, 75, 0.907); ;
+}
+
+.navbar-brand img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.navbar-brand span {
+    font-size: 35px;
+}
+a:hover{
+    color: blanchedalmond;
+}
+.breadcrumbs{
+    
+    text-align: end;
+    font-size: xx-small;
+}
+span{
+    text-shadow: 5px 0px 15px blanchedalmond;
+}
+h1{
+    align-items: flex-end;
+}
+/* index main inicia */
+main {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(18, 19, 18, 0.539);
+    margin-top: 150px;
+    margin-bottom: 5em;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+main .yy{
+    width: 300px;
+}
+
+.link2{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+main img{
+    align-items: center;
+    margin-left: 10em;
+}
+main .chakras{
+    width: 50%;
+    align-items: center;
+    margin-left: 6%;
+}
+
+
+/* index main finaliza */
+
+/* index section inicia */
+
+.nosotros{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(18, 19, 18, 0.539);
+    border-radius: 10px;
+}
+
+section h3{
+    text-align: center;
+    font-size: 30px;
+    color: blanchedalmond;
+}
+
+.ladder h3{
+    /* height: 150px; */
+    font-size: 25px;
+}
+
+.ladder p{
+    margin-top: 10px;
+    padding-left: px;
+    font-size: 14px;
+}
+
+iframe {
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.ladizq {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+/* index section fin  */
+/* index artilce inicia */
+H2 {
+    text-shadow: 5px 0px 15px #333;
+}
+
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: none;
+    padding: 20px;
+    border-radius: 15px;
+}  
+
+.card:hover{
+    transform:scale(1.08);
+    filter: brightness(120%);
+    box-shadow: 5px 5px 15px rgba(1, 1, 1, 0.822);
+}
+
+.card {
+    width: 250px;
+    height: 600px;
+    margin-top: 30px;
+    background-color: rgba(54, 50, 43, 0.402);
+    border-radius: 15px;
+    box-shadow: 5px 0px 15px #69676a;
+    transition: all 0.9s;
+    filter: brightness(70%);
+    margin-left: 40px;
+}
+
+
+.card__img1 {
+    height: 250px;
+    background-color: #3f2f4596;
+    background-image: url(../img/mano.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;    
+}
+
+.card__img2 {
+    height: 250px;
+    background-color: #3f2f4596;
+    background-image: url(../img/piedras.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;    
+}
+
+.card__img3 {
+    height: 250px;
+    background-color: #3f2f4596;
+    background-image: url(../img/yoga.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.card__title {
+    margin-top: 10px;
+    text-align: center;
+    color: rgba(225, 153, 75, 0.907);   
+    text-transform: capitalize;
+}
+
+.card__desc {
+    padding: 20px;
+    font-size: 12px;color: blanchedalmond;
+}
+
+.card__boton {
+    margin-left: 50px;
+    color: rgba(225, 153, 75, 0.907);
+    background-color: #8a868b69;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;
+    margin-right: 35px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    box-shadow: 5px 0px 5px #8a868b8d;
+}
+
+.card--xl {
+    width: 100%;
+    border-color: #333;
+    box-shadow: 5px 0px 10px #8a868b;
+}
+
+/* servcios  a 323px*/
+
+.serv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(18, 19, 18, 0.714);
+    border-radius: 40px;
+}
+.serv img{
+    border-radius: 40px;
+}
+.slide h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+.slide p{
+    width: 400px;
+    font-size: 13px;
+    color: blanchedalmond;
+}
+
+.cont {
+    display: block;
+}
+
+
+
+/* registro */
+
+h3.data{
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+/* boton enviar registro */
+.reg{
+    width: 18%;
+    margin-top: 40px;
+    background-color:antiquewhite;
+    color: #b921ec !important; 
+    text-align: center;
+    border-radius: 10px;
+}
+
+.reg:hover{
+    transform:scale(1.08);
+    filter: brightness(120%);
+    color: #333;
+    box-shadow: 5px 5px 15px rgba(1, 1, 1, 0.822);
+} 
+
+/* servicios */
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: rgba(27, 26, 27, 0.703);
+}
+
+i{
+font-size: 30px;
+margin-right: 5px;
+}
+
+footer img{
+    margin-left: 20px;    
+}
+/* footter fin  */
+
+
+/* nosotros inicio */
+section {
+    margin-top: 150px;
+}
+section p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+section .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+/* media queries */
+@media only screen and  (min-width:0 ) and (max-width:320px){
+
+
+    .navbar-collapse{
+        background-color: rgba(18, 19, 18, 0.539);
+        display: flex;
+        justify-content:right;
+    }
+main{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(18, 19, 18, 0.539);
+}
+main .yy{
+    margin-left: 20px;
+    width: 90px;
+    height: 90px;
+    margin-right: 40px;
+    
+}
+h1{
+    font-size: 20px;
+}
+main h3{
+    font-size: 10px;
+}
+span{
+    font-size: 10px;
+}
+.nosotros{
+    width: 90%;
+    align-items: center ;
+    display: block;
+    justify-content: center;
+    background-color: rgba(18, 19, 18, 0.539);
+    font-size: 10px;
+}
+h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+iframe {
+    width: 90%;
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+.ladder{
+    font-size:11px;
+    margin-left: 3px;
+    margin-left: 3px;
+}
+.ladder p{
+    text-align: center;
+
+}
+main .serv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main img{
+    width: 0;
+}
+section .container p{
+    font-size: 10px;
+}
+
+footer{
+    width: 100%;
+
+}
+/* servcios main inicia */
+
+main contenedor img{
+    width: none;
+    filter: opacity(.9);
+}
+footer p{
+    font-size: 12px;
+} 
+footer img{
+    width: 30px;
+    margin-bottom: 25px;
+}
+
+}
+
+/* media query */
+@media only screen and  (min-width: 320px ) and (max-width:576px){
+    .navbar {
+        height: 100px;
+        border: solid rgba(0, 0, 0, 0.1);
+        box-shadow: 0 5px 5px 10px rgba(36, 35, 35, 0.663);
+        background-color: rgba(18, 19, 18, 0.755);
+
+    }
+    .navbar-collapse{
+        background-color: rgba(18, 19, 18, 0.539);
+        display: flex;
+        justify-content:right;
+
+    }
+    main{
+        width: 100%;
+        height: 350px;
+        background-color: rgba(18, 19, 18, 0.539);
+    }
+    main .yy{
+        margin-left: 20px;
+        width: 90px;
+        height: 90px;
+        margin-right: 40px;
+    
+    }
+
+.nosotros{
+    width: 90%;
+    align-items: center ;
+    display: block;
+    justify-content: center;
+    background-color: rgba(18, 19, 18, 0.539);
+    font-size: 10px;
+}
+h4 {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+iframe {
+    width: 90%;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.ladder{
+    font-size:11px;
+    margin-left: 3px;
+    margin-left: 3px;
+    text-align: center;
+}
+main .serv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main img{
+    width: 70%;
+}
+.reg{
+    width: 40%;
+    margin-top: 40px;
+    background-color:antiquewhite;
+    color: #b921ec !important; 
+    text-align: center;
+    border-radius: 10px;
+}
+
+.reg:hover{
+    transform:scale(1.08);
+    filter: brightness(120%);
+    color: #333;
+    box-shadow: 5px 5px 15px rgba(1, 1, 1, 0.822);
+}
+.serv{
+    width: 90%;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    margin-left: 18px;
+}
+.serv__img1 {
+    height: 150px;
+    align-items: center;
+    background-image: url(../img/mano.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;    
+}
+/* nosotros main  section  */
+main img  {
+    width: 75%;
+    align-items: center;
+    margin-left: 50px;
+
+}
+section .container p{
+    font-size: 10px;
+    padding: 10px;
+
+
+}
+footer{
+    width: 100%;
+}
+footer p{
+    font-size: 12px;
+    
+} 
+footer img{
+    width: 30px;
+    margin-bottom: 25px;
+}
+
+
+}
+ /* media query */
+
+ @media only screen and  (min-width:576px ) and (max-width:992px){
+    .navbar-collapse{
+        background-color: rgba(18, 19, 18, 0);
+        display: flex;
+            justify-content:right;
+        }
+    .nosotros{
+        width: 90%;
+        align-items: center ;
+        display: block;
+        justify-content: center;
+        background-color: rgba(18, 19, 18, 0.539);
+        font-size: px;
+        margin-left: 50px;
+    }
+    
+    .ladder{
+        font-size: 15px;
+    
+    }
+    
+    iframe {
+        width: 90%;
+    
+    }
+    main{
+        width: 100%;
+        height: 300px;
+    }
+    main .yy{
+        width: 180px;
+        margin-right: 50px;
+    }
+    footer p{
+        font-size: 12px;
+    } 
+    
+    footer img{
+        width: 30px;
+        margin-bottom: 25px;
+    }
+    }
