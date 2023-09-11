@@ -230,6 +230,96 @@ H2 {
 }
 
 /* servcios  a 323px*/
+.circle {
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  line-height: 200px;
+  border-radius: 150px;
+  margin: auto;
+  animation-name: rebotar;
+  animation-duration: 15s;
+  background-image: url(../img/esp.jpg);
+  background-position: center;
+  background-size: cover;
+  color: red;
+}
+
+@keyframes rebotar {
+  0% {
+    opacity: 0;
+  }
+  1% {
+    transform: translatey(150px);
+    box-shadow: 0px 10px 10px 10px #f8f4f4;
+    transform: rotate(-560deg);
+  }
+  10% {
+    opacity: 1;
+    transform: translatez(150px);
+    transform: rotate(-560deg);
+  }
+  11% {
+    box-shadow: 0px 10px 10px 10px #fafafa;
+  }
+  20% {
+    opacity: 0;
+    transform: translatez(0px);
+  }
+  21% {
+    box-shadow: none;
+  }
+  30% {
+    opacity: 1;
+    transform: translatez(150px);
+  }
+  31% {
+    box-shadow: 0px 10px 10px 10px #fbfafa;
+  }
+  40% {
+    opacity: 0;
+    transform: translatez(0px);
+    box-shadow: none;
+  }
+  50% {
+    opacity: 1;
+    transform: translatez(150px);
+    box-shadow: 0px 10px 10px 10px #f8f6f6;
+  }
+  60% {
+    opacity: 0;
+    transform: translatez(0px);
+    box-shadow: none;
+    transform: rotate(-45deg);
+  }
+  70% {
+    opacity: 1;
+    transform: translatez(150px);
+    box-shadow: 0px 10px 10px 10px #f4f2f2;
+    transform: rotate(-90deg);
+  }
+  80% {
+    opacity: 0;
+    transform: translatez(50px);
+    box-shadow: none;
+    transform: rotate(-150deg);
+  }
+  90% {
+    opacity: 1;
+    transform: translatez(130px);
+    box-shadow: none;
+    transform: rotate(-280deg);
+  }
+  100% {
+    transform: rotate(-560deg);
+    transform: translatez(10px, 150px);
+    box-shadow: 0px 10px 10px 10px #f1ecec;
+  }
+}
+article h3 {
+  text-align: center;
+}
+
 .serv {
   width: 100%;
   display: flex;
