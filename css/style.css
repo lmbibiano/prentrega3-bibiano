@@ -348,6 +348,10 @@ article h3 {
   display: block;
 }
 
+aside p {
+  font-size: 16px;
+}
+
 /* registro */
 h3.data {
   margin-top: 20px;
