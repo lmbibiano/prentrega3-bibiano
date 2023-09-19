@@ -38,10 +38,11 @@ body {
     height: 50px;
     margin-bottom: 10px;
 }
-
-.navbar-brand span {
+span {
     font-size: 35px;
 }
+
+
 a:hover{
     color: blanchedalmond;
 }
@@ -66,28 +67,21 @@ main {
     display: flex;
     align-items:center;
     justify-content: space-evenly;
+    .yy{
+        width: 300px;
+    }
+    img{
+        align-items: center;
+        margin-left: 10em;
+    }
 }
 
-main .yy{
-    width: 300px;
-}
+
 
 .link2{
     text-decoration: none;
     color: antiquewhite;
 }
-
-main img{
-    align-items: center;
-    margin-left: 10em;
-}
-main .chakras{
-    width: 50%;
-    align-items: center;
-    margin-left: 6%;
-}
-
-
 /* index main finaliza */
 
 /* index section inicia */
@@ -110,14 +104,15 @@ section h3{
 .ladder h3{
     /* height: 150px; */
     font-size: 25px;
+    p{
+        margin-top: 10px;
+        margin-right: 0px;
+        padding-right: 18px;
+        font-size: 14px;
+    }
 }
 
-.ladder p{
-    margin-top: 10px;
-    margin-right: 0px;
-    padding-right: 18px;
-    font-size: 14px;
-}
+
 
 iframe {
     margin-top: 5px;
@@ -325,24 +320,12 @@ H2 {
     justify-content: center;
     background-color: rgba(18, 19, 18, 0.714);
     border-radius: 40px;
-}
-.serv img{
-    border-radius: 40px;
-}
-.slide h3{
-    font-size: 20px;
-    margin-bottom: 20px;
-    
-}
-.slide p{
-    width: 400px;
-    font-size: 13px;
-    color: blanchedalmond;
+    img{
+        border-radius: 40px;
+    }
 }
 
-.cont {
-    display: block;
-}
+
 // aside inicio
 
 aside p{
@@ -381,6 +364,9 @@ h3.data{
 footer {
     width: 100%;
     background-color: rgba(27, 26, 27, 0.703);
+    img{
+        margin-left: 20px;    
+    }
 }
 
 i{
@@ -388,29 +374,24 @@ font-size: 30px;
 margin-right: 5px;
 }
 
-footer img{
-    margin-left: 20px;    
-}
-/* footter fin  */
-
 
 /* nosotros inicio */
 section {
     margin-top: 150px;
-}
-section p {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    text-align: center;
+    p {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 30px;
+    }
 }
 
-section .container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 30px;
-}
 
 
 /* media queries */
@@ -426,14 +407,15 @@ main{
     width: 100%;
     height: 200px;
     background-color: rgba(18, 19, 18, 0.539);
+    .yy{
+        margin-left: 20px;
+        width: 90px;
+        height: 90px;
+        margin-right: 40px;
+        
+    }
 }
-main .yy{
-    margin-left: 20px;
-    width: 90px;
-    height: 90px;
-    margin-right: 40px;
-    
-}
+
 h1{
     font-size: 20px;
 }
@@ -495,11 +477,12 @@ main contenedor img{
 }
 footer p{
     font-size: 12px;
+    img{
+        width: 30px;
+        margin-bottom: 25px;
+    }
 } 
-footer img{
-    width: 30px;
-    margin-bottom: 25px;
-}
+
 
 }
 
@@ -611,15 +594,15 @@ section .container p{
 }
 footer{
     width: 100%;
+    p{
+        font-size: 12px;
+    }
+    img{
+        width: 30px;
+        margin-bottom: 25px;
+    } 
 }
-footer p{
-    font-size: 12px;
-    
-} 
-footer img{
-    width: 30px;
-    margin-bottom: 25px;
-}
+
 
 
 }
@@ -660,10 +643,11 @@ footer img{
     }
     footer p{
         font-size: 12px;
+        img{
+            width: 30px;
+            margin-bottom: 25px;
+        }
     } 
     
-    footer img{
-        width: 30px;
-        margin-bottom: 25px;
-    }
+    
     }

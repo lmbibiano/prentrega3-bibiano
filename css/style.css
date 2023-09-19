@@ -41,7 +41,7 @@ body {
   margin-bottom: 10px;
 }
 
-.navbar-brand span {
+span {
   font-size: 35px;
 }
 
@@ -73,25 +73,17 @@ main {
   align-items: center;
   justify-content: space-evenly;
 }
-
 main .yy {
   width: 300px;
 }
-
-.link2 {
-  text-decoration: none;
-  color: antiquewhite;
-}
-
 main img {
   align-items: center;
   margin-left: 10em;
 }
 
-main .chakras {
-  width: 50%;
-  align-items: center;
-  margin-left: 6%;
+.link2 {
+  text-decoration: none;
+  color: antiquewhite;
 }
 
 /* index main finaliza */
@@ -115,10 +107,10 @@ section h3 {
   /* height: 150px; */
   font-size: 25px;
 }
-
-.ladder p {
+.ladder h3 p {
   margin-top: 10px;
-  padding-left: px;
+  margin-right: 0px;
+  padding-right: 18px;
   font-size: 14px;
 }
 
@@ -328,24 +320,8 @@ article h3 {
   background-color: rgba(18, 19, 18, 0.714);
   border-radius: 40px;
 }
-
 .serv img {
   border-radius: 40px;
-}
-
-.slide h3 {
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-.slide p {
-  width: 400px;
-  font-size: 13px;
-  color: blanchedalmond;
-}
-
-.cont {
-  display: block;
 }
 
 aside p {
@@ -381,28 +357,24 @@ footer {
   width: 100%;
   background-color: rgba(27, 26, 27, 0.703);
 }
+footer img {
+  margin-left: 20px;
+}
 
 i {
   font-size: 30px;
   margin-right: 5px;
 }
 
-footer img {
-  margin-left: 20px;
-}
-
-/* footter fin  */
 /* nosotros inicio */
 section {
   margin-top: 150px;
 }
-
 section p {
   margin-bottom: 20px;
   margin-top: 20px;
   text-align: center;
 }
-
 section .container {
   display: flex;
   flex-wrap: wrap;
@@ -486,7 +458,7 @@ section .container {
   footer p {
     font-size: 12px;
   }
-  footer img {
+  footer p img {
     width: 30px;
     margin-bottom: 25px;
   }
@@ -632,7 +604,7 @@ section .container {
   footer p {
     font-size: 12px;
   }
-  footer img {
+  footer p img {
     width: 30px;
     margin-bottom: 25px;
   }
