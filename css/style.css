@@ -83,7 +83,7 @@ main img {
 
 .link2 {
   text-decoration: none;
-  color: antiquewhite;
+  color: blanchedalmond;
 }
 
 /* index main finaliza */
@@ -221,7 +221,7 @@ H2 {
   box-shadow: 5px 0px 10px #8a868b;
 }
 
-/* servcios  a 323px*/
+/* servcios */
 .circle {
   height: 300px;
   width: 300px;
@@ -234,7 +234,6 @@ H2 {
   background-image: url(../img/esp.jpg);
   background-position: center;
   background-size: cover;
-  color: red;
 }
 
 @keyframes rebotar {
@@ -338,8 +337,8 @@ h3.data {
 .reg {
   width: 18%;
   margin-top: 40px;
-  background-color: antiquewhite;
-  color: #b921ec !important;
+  background-color: blanchedalmond;
+  color: rgba(225, 153, 75, 0.907);
   text-align: center;
   border-radius: 10px;
 }
@@ -347,8 +346,8 @@ h3.data {
 .reg:hover {
   transform: scale(1.08);
   filter: brightness(120%);
-  color: #333;
-  box-shadow: 5px 5px 15px rgba(1, 1, 1, 0.822);
+  color: rgba(225, 153, 75, 0.907);
+  box-shadow: 5px 5px 15px rgba(74, 71, 71, 0.822);
 }
 
 /* servicios */
@@ -523,15 +522,15 @@ section .container {
   .reg {
     width: 40%;
     margin-top: 40px;
-    background-color: antiquewhite;
-    color: #b921ec !important;
+    background-color: blanchedalmond;
+    color: rgba(18, 19, 18, 0.539);
     text-align: center;
     border-radius: 10px;
   }
   .reg:hover {
     transform: scale(1.08);
     filter: brightness(120%);
-    color: #333;
+    color: rgba(225, 153, 75, 0.907);
     box-shadow: 5px 5px 15px rgba(1, 1, 1, 0.822);
   }
   .serv {
