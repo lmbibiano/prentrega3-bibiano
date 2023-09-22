@@ -166,27 +166,27 @@ H2 {
     filter: brightness(70%);
     margin-left: 40px;
 }
-@mixin tarjeta ($img){
+@mixin tarjeta{
     height: 300px;
     background-color: #3f2f4596;
-    background-image: $img;
     background-size: cover;
     background-position: center;
     border-radius: 15px;    
 }
 
 .card__img1 {
-    
+    background-image: url(../img/mano.jpg);
     @include tarjeta;
 
 }
 
 .card__img2 {
-    
+    background-image: url(../img/piedras.jpg);
     @include tarjeta;
 }
 
 .card__img3 {
+    background-image: url(../img/yoga.jpg);
     @include tarjeta;
 
 }

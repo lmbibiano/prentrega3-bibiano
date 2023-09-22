@@ -160,7 +160,30 @@ H2 {
 }
 
 .card__img1 {
-  @in;
+  background-image: url(../img/mano.jpg);
+  height: 300px;
+  background-color: rgba(63, 47, 69, 0.5882352941);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.card__img2 {
+  background-image: url(../img/piedras.jpg);
+  height: 300px;
+  background-color: rgba(63, 47, 69, 0.5882352941);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.card__img3 {
+  background-image: url(../img/yoga.jpg);
+  height: 300px;
+  background-color: rgba(63, 47, 69, 0.5882352941);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
 }
 
 .card__title {
