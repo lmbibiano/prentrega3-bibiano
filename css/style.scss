@@ -153,6 +153,8 @@ H2 {
     box-shadow: 5px 5px 15px rgba(1, 1, 1, 0.822);
 }
 
+
+
 .card {
     width: 250px;
     height: 600px;
@@ -164,33 +166,29 @@ H2 {
     filter: brightness(70%);
     margin-left: 40px;
 }
-
-
-.card__img1 {
-    height: 250px;
+@mixin tarjeta ($img){
+    height: 300px;
     background-color: #3f2f4596;
-    background-image: url(../img/mano.jpg);
+    background-image: $img;
     background-size: cover;
     background-position: center;
     border-radius: 15px;    
+}
+
+.card__img1 {
+    
+    @include tarjeta;
+
 }
 
 .card__img2 {
-    height: 250px;
-    background-color: #3f2f4596;
-    background-image: url(../img/piedras.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;    
+    
+    @include tarjeta;
 }
 
 .card__img3 {
-    height: 250px;
-    background-color: #3f2f4596;
-    background-image: url(../img/yoga.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
+    @include tarjeta;
+
 }
 
 .card__title {
