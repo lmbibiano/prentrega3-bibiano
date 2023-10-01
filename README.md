@@ -1,6 +1,8 @@
 Saludos
 
-**Mi nombre es luis bibiano** 
+**Mi nombre es luis Bibiano** 
+
+Soy Desarrollador Web Junior, con conocimientos en Html, Css, Javascript y Python.
 
 **y aqui va mi pagina en el campo de mi desarrollo espiritual**
 
